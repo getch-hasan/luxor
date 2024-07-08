@@ -1,4 +1,6 @@
+import Award from "@/components/Awart";
 import Environmetn from "@/components/Environment";
+import Gallary from "@/components/Gallery";
 import HeroSection from "@/components/HeroSection";
 import Journy from "@/components/Journy";
 import Look from "@/components/Look";
@@ -13,8 +15,10 @@ export default function Home() {
       <Map />
       <Journy />
       <Environmetn />
+      <Gallary/>
       <Partner />
       <Look/>
+      <Award/>
 
     </main>
   );
