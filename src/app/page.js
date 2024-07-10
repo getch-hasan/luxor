@@ -7,22 +7,26 @@ import HeroSection from "@/components/HeroSection";
 import Journy from "@/components/Journy";
 import Look from "@/components/Look";
 import Map from "@/components/Map";
+import New from "@/components/New";
 import Partner from "@/components/Partnet";
+import World from "@/components/World";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="container bg-white mx-auto">
-      <Bannar/>
+      <Bannar />
       <HeroSection></HeroSection>
       <Map />
+      <New></New>
+      <World></World>
       <Journy />
       <Environmetn />
-      <Gallary/>
+      <Gallary />
       <Partner />
-      <Look/>
+      <Look />
       {/* <HappyCustomer/> */}
-      <Award/>
+      <Award />
 
     </main>
   );
