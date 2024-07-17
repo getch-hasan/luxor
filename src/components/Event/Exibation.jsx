@@ -11,13 +11,13 @@ const Exhibation = () => {
                 
                 <div className='grid md:grid-cols-3 grid-cols-1 sm:gap-3 md:gap-5 gap-2 justify-between'>
                     <div className='grid justify-center'>
-                        <Image className='max-w-full h-full   ' width={500} height={500} src={"/image/ex1.webp"} />
+                        <Image className='max-w-full h-full   ' width={500} height={500} src={"/image/ex1.webp"}  alt=''/>
                     </div>
                     <div className='grid justify-center'>
-                        <Image className='max-w-full h-full ' width={500} height={500} src={"/image/ex2.webp"} />
+                        <Image className='max-w-full h-full ' width={500} height={500} src={"/image/ex2.webp"}  alt=''/>
                     </div>
                     <div className='grid justify-center'>
-                        <Image className='max-w-full h-full ' width={500} height={500} src={"/image/ex3.webp"} />
+                        <Image className='max-w-full h-full ' width={500} height={500} src={"/image/ex3.webp"}  alt=''/>
                     </div>
                 </div>
 

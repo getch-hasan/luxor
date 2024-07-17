@@ -10,7 +10,7 @@ const Projects = ({ data }) => {
 
                 <div class=" bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <Image className='max-h-[260px] rounded-lg' height={500} width={500} src={image}></Image>
+                        <Image className='max-h-[260px] rounded-lg' height={500} width={500} src={image} alt=''></Image>
                     </a>
                     <div class="p-5">
                         <h1 className='text-center text-lg font-bold'>{name}</h1>
