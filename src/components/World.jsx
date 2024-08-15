@@ -4,10 +4,10 @@ import React from 'react';
 const World = () => {
     return (
         <div className="bg-red-500 relative pt-5">
-            <h1 className="text-center text-5xl font-bold">World Of Luxor</h1>
+            <h1 className="text-center text-5xl font-bold">World Of Zan</h1>
             <div className="grid grid-cols-4  gap-6">
                 <div className="relative overflow-hidden top-5 hover:top-10">
-                    <Image
+                    <img
                         height={500}
                         width={500}
                         className="w-full transform transition-transform duration-500 hover:translate-y-1/5"
@@ -16,7 +16,7 @@ const World = () => {
                     />
                 </div>
                 <div className="relative overflow-hidden top-5 hover:top-10">
-                    <Image
+                    <img
                         height={500}
                         width={500}
                         className="w-full transform transition-transform duration-500 hover:translate-y-1/5"
@@ -25,7 +25,7 @@ const World = () => {
                     />
                 </div>
                 <div className="relative overflow-hidden top-5 hover:top-10">
-                    <Image
+                    <img
                         height={500}
                         width={500}
                         className="w-full transform transition-transform duration-500 hover:translate-y-1/5"
@@ -34,7 +34,7 @@ const World = () => {
                     />
                 </div>
                 <div className="relative overflow-hidden top-5 hover:top-10">
-                    <Image
+                    <img
                         height={500}
                         width={500}
                         className="w-full transform transition-transform duration-500 hover:translate-y-1/5"

@@ -10,7 +10,7 @@ const Look = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-40 justify-center">
                 <div className="relative group">
                     <div className="relative w-full h-64">
-                        <Image
+                        <img
                             className="w-full h-full  rounded-md object-cover"
                             src="/image/bg.webp"
                             layout="fill"
@@ -23,7 +23,7 @@ const Look = () => {
                 </div>
                 <div className="relative group">
                     <div className="relative w-full h-64">
-                        <Image
+                        <img
                             className="w-full h-full rounded-md object-cover"
                             src="/image/bg.webp"
                             layout="fill"
@@ -36,7 +36,7 @@ const Look = () => {
                 </div>
                 <div className="relative group">
                     <div className="relative w-full h-64">
-                        <Image
+                        <img
                             className="w-full h-full rounded-md object-cover"
                             src="/image/bg.webp"
                             layout="fill"

@@ -40,37 +40,37 @@ const HappyCustomer = () => {
             >
                 <SwiperSlide>
                     <div className='pe-10'>
-                        <Image className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group"  alt='' />
+                        <img className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group"  alt='' />
                         <h1 className='py-5 text-xl text-center font-semibold'>This highly anticipated technology could finally transform the world</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='pe-10'>
-                        <Image className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
+                        <img className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
                         <h1 className='py-5 text-xl text-center font-semibold'>This highly anticipated technology could finally transform the world</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='pe-10'>
-                        <Image className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
+                        <img className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
                         <h1 className='py-5 text-xl text-center font-semibold'>This highly anticipated technology could finally transform the world</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='pe-10'>
-                        <Image className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
+                        <img className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
                         <h1 className='py-5 text-xl text-center font-semibold'>This highly anticipated technology could finally transform the world</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='pe-10'>
-                        <Image className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
+                        <img className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
                         <h1 className='py-5 text-xl text-center font-semibold'>This highly anticipated technology could finally transform the world</h1>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='pe-10'>
-                        <Image className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
+                        <img className='rounded-lg' height={500} width={500} src={"/image/coustomer.jpg"} alt="Group" />
                         <h1 className='py-5 text-xl text-center font-semibold'>This highly anticipated technology could finally transform the world</h1>
                     </div>
                 </SwiperSlide>

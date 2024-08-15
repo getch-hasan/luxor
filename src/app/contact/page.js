@@ -5,10 +5,10 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div>
-    <ContactBanner></ContactBanner>
-    <ContactForm></ContactForm>
-    <ContactMap></ContactMap>
+    <div className='py-24'>
+      <ContactBanner></ContactBanner>
+      <ContactForm></ContactForm>
+      <ContactMap></ContactMap>
     </div>
   );
 };
