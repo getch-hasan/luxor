@@ -4,7 +4,7 @@ import React from 'react';
 
 const media = () => {
   return (
-    <div>
+    <div className='py-24'>
    <MediaBannar></MediaBannar>
    <Featured></Featured>
     </div>

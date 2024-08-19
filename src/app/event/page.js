@@ -4,7 +4,7 @@ import React from 'react';
 
 const Event = () => {
   return (
-    <div>
+    <div className='py-24'>
       <EventBanner/>
       <Exhibation></Exhibation>
     </div>

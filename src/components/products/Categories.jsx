@@ -46,6 +46,13 @@ const Categories = () => {
                     </div>
                 </Link>
             </div>
+            <div className='grid justify-start'>
+                <Link href="/products/medical">
+                    <div className={`p-5 mb-2 rounded-md w-64 font-semibold ${pathname.includes('medical') ? 'bg-blue-500 text-white' : 'bg-red-500 text-white'}`}>
+                       Medical
+                    </div>
+                </Link>
+            </div>
         </div>
     );
 };

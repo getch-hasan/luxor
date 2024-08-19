@@ -5,7 +5,7 @@ const EventBanner = () => {
 
   return (
     <div>
-      <Image height={2000} width={2000} src={'/image/eventBanner.webp'} className='w-full'  alt=''></Image>
+      <img height={2000} width={2000} src={'/image/eventBanner.webp'} className='w-full' alt=''/>
     </div>
 
 

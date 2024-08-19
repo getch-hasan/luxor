@@ -2,9 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 const Bannar = () => {
     return (
-        <div id="indicators-carousel" class="relative w-full" data-carousel="static">
+        <div id="indicators-carousel" class="relative  w-full" data-carousel="static">
 
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <div class="relative  overflow-hidden rounded-lg ">
 
                 <div class=" duration-700 ease-in-out" data-carousel-item="active">
                     <video width="600" className='w-full ' autoPlay muted loop>
@@ -12,14 +12,14 @@ const Bannar = () => {
 
                     </video>
                 </div>
-                <div class=" duration-700 ease-in-out" data-carousel-item="active">
+                {/* <div class=" duration-700 ease-in-out" data-carousel-item="active">
                     <video width="600" className='w-full ' autoPlay muted loop>
                         <source src={"/image/Banner.mp4"} type="video/mp4" />
 
                     </video>
                 </div>
                 <div class=" duration-700 ease-in-out" data-carousel-item>
-                    <Image className='max-w-[250px]   ' width={500} height={500} src={"/image/map.webp"} alt='' />
+                    <img className='max-w-[250px]   ' width={500} height={500} src={"/image/map.webp"} alt='' />
                 </div>
                 <div class="duration-700 ease-in-out" data-carousel-item>
                     <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
@@ -53,7 +53,8 @@ const Bannar = () => {
                     </svg>
                     <span class="sr-only">Next</span>
                 </span>
-            </button>
+            </button> */}
+            </div>
         </div>
 
 

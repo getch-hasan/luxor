@@ -10,7 +10,7 @@ const Nav = () => {
 
     return (
         <div>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+            <nav className="bg-white fixed mt-16 w-full z-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <button
                         onClick={handelnab}

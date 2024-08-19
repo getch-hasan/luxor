@@ -3,7 +3,7 @@ import React from 'react';
 
 const Quality = () => {
   return (
-    <div>
+    <div className='py-24'>
       <QualityBanner></QualityBanner>
     </div>
   );
